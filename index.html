@@ -127,14 +127,24 @@
 
   <!-- ============ HERO ============ -->
   <section id="hero">
-   <!-- SCALEMEDIA LOGO -->
-<div class="hero-logo-container hero-reveal">
-  <img 
-    src="./assets/scalemedia-logo.png" 
-    alt="ScaleMedia Logo"
-    class="hero-logo-image"
-  >
-</div>
+    <div class="hero-bg-glow" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div>
+        <!-- TOP LEFT ANIMATED HERO LOGO BADGE -->
+        <div class="hero-brand-badge hero-reveal">
+          <svg class="scalemedia-logo-svg logo-hero-mark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <rect width="10" height="10" rx="22" fill="#12141C" class="logo-bg-rect" />
+            <path d="M30 62 L55 40 L78 60" stroke="#F1F0EC" stroke-width="4.5" fill="none" stroke-linecap="round"
+              stroke-linejoin="round" class="logo-chart-line" />
+            <circle cx="30" cy="62" r="8" fill="url(#logoGlow)" filter="url(#nodeGlowFilter)"
+              class="logo-node node-1" />
+            <circle cx="55" cy="40" r="7.5" fill="#F1F0EC" class="logo-node node-2" />
+            <circle cx="78" cy="60" r="7.5" fill="#F1F0EC" class="logo-node node-3" />
+            <circle cx="30" cy="62" r="8" fill="none" stroke="#3653FF" stroke-width="2" class="logo-pulse-ring" />
+          </svg>
+          <span class="badge-text">ScaleMedia</span>
+          <span class="badge-tag">Growth System</span>
+        </div>
 
         <h1 class="hero-headline mask-heading">Your content isn't the problem. Your strategy is.</h1>
         <p class="hero-sub hero-reveal">We build the strategy, creative and marketing systems that turn attention into
